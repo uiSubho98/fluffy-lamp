@@ -1,0 +1,17 @@
+ .eachCategory{
+    width: 310px;
+    height: 188px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 5px 5px 8px 1px black;
+ }
+ .category-card{
+    margin-top: 25px ;
+    margin-left: 25px ;
+ }
+
+ @media (max-width: 768px){
+   .eachCategory{
+      margin-bottom: 20px;
+   }
+}

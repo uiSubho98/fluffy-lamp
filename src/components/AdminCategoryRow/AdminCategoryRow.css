@@ -1,0 +1,9 @@
+.categoryRowImg{
+    width: 180px;
+}
+
+@media (max-width: 768px){
+    .categoryRowImg{
+        width: 80px;
+    }
+}

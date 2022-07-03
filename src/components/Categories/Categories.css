@@ -1,0 +1,13 @@
+.categoryRow{
+    justify-content: space-between;
+    align-items: center;
+   padding: 25px;
+   margin-bottom: 105px;
+
+}
+
+@media (max-width: 768px){
+    .categoryRow{
+       margin-bottom: 50px;
+    }
+ }
