@@ -5,7 +5,7 @@ const Banner = () => {
 
     const [banner,setBanner]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/banner',{
+        fetch('https://sea-basket2.herokuapp.com/banner',{
             method:'GET'
         })
         .then(res=>res.json())

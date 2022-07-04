@@ -4,7 +4,7 @@ import EachFaq from './EachFaq/EachFaq';
 const FAQ = () => {
     const [faq,setFaq]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/faq',{
+        fetch('https://sea-basket2.herokuapp.com/faq',{
             method:'GET'
         })
         .then(res=>res.json())

@@ -4,7 +4,7 @@ import GlanceVideo from './GlanceVideo/GlanceVideo';
 const Glance = () => {
     const [glance,setGlance]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/glance',{
+        fetch('https://sea-basket2.herokuapp.com/glance',{
             method:'GET'
         })
         .then(res=>res.json())

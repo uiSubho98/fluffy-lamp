@@ -4,7 +4,7 @@ import EachBlog from '../EachBlog/EachBlog';
 const BlogTopic = () => {
     const [blog,setBlog]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/blogTopic',{
+        fetch('https://sea-basket2.herokuapp.com/blogTopic',{
             method:'GET'
         })
         .then(res=>res.json())

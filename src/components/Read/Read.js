@@ -4,7 +4,7 @@ import EachRead from '../EachRead/EachRead';
 const Read = () => {
     const [readTopics,setReadTopics]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/readTopics',{
+        fetch('https://sea-basket2.herokuapp.com/readTopics',{
             method:'GET'
         })
         .then(res=>res.json())

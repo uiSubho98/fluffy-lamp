@@ -6,7 +6,7 @@ const AdminCategoryRow = ({categoryRow}) => {
     console.log(_id);
     const handleDelete=(_id)=>{
         console.log(_id);
-        fetch(`http://localhost:5000/categories/${_id}`,{
+        fetch(`https://sea-basket2.herokuapp.com/categories/${_id}`,{
             method: 'DELETE'
         })
         .then(res=>res.json())

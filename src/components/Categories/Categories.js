@@ -7,7 +7,7 @@ const Categories = () => {
     const [categories,setCategories]= useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:5000/categories',{
+        fetch('https://sea-basket2.herokuapp.com/categories',{
             method:'GET'
         })
         .then(res=>res.json())

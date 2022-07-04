@@ -14,7 +14,7 @@ const AddCategory = () => {
         name:name,
     }
     console.log(newcategories);
-    fetch(`http://localhost:5000/newcategories`, {
+    fetch(`https://sea-basket2.herokuapp.com/newcategories`, {
         method: 'POST',
         headers: {
             'content-type': 'application/json',

@@ -16,7 +16,7 @@ const CategoryEdit = () => {
             picture:imgLink,
             name:name
         }
-        fetch(`http://localhost:5000/categoryForm/${id}`, {
+        fetch(`https://sea-basket2.herokuapp.com/categoryForm/${id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json',
